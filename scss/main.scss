@@ -169,3 +169,49 @@
     }
   }
 }
+
+
+@media (min-width: 1200px) {
+  .appSection {
+    width: 100%;
+    padding-bottom: 100px;
+    h1 {
+      padding: 130px 0 60px;
+    }
+    .appMainSection {
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      .insertSection {
+        width: 50%;
+      }
+      .resultSection {
+        width: 50%;
+        height: 420px;
+        padding: 50px;
+        margin-top: 10px;
+        .tipAmountDiv {
+          margin-bottom: 20px;
+          .numTipADiv {
+            h4 {
+              font-size: 40px;
+              padding-top: 4px;
+            }
+          }
+        }
+        .totalAmountDiv {
+          .numTotalADiv {
+            h4 {
+              font-size: 40px;
+              padding-top: 4px;
+            }
+          }
+        }
+        button {
+          margin-top: 105px;
+        }
+      }
+    }
+  }
+}

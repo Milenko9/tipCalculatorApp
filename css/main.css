@@ -132,4 +132,33 @@
         color: #00494d;
         margin-top: 18px; }
 
+@media (min-width: 1200px) {
+  .appSection {
+    width: 100%;
+    padding-bottom: 100px; }
+    .appSection h1 {
+      padding: 130px 0 60px; }
+    .appSection .appMainSection {
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; }
+      .appSection .appMainSection .insertSection {
+        width: 50%; }
+      .appSection .appMainSection .resultSection {
+        width: 50%;
+        height: 420px;
+        padding: 50px;
+        margin-top: 10px; }
+        .appSection .appMainSection .resultSection .tipAmountDiv {
+          margin-bottom: 20px; }
+          .appSection .appMainSection .resultSection .tipAmountDiv .numTipADiv h4 {
+            font-size: 40px;
+            padding-top: 4px; }
+        .appSection .appMainSection .resultSection .totalAmountDiv .numTotalADiv h4 {
+          font-size: 40px;
+          padding-top: 4px; }
+        .appSection .appMainSection .resultSection button {
+          margin-top: 105px; } }
+
 /*# sourceMappingURL=main.css.map */
