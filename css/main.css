@@ -28,7 +28,11 @@
           font-weight: bold; }
         .appSection .appMainSection .insertSection .billDiv .insertBillAmount {
           height: 40px;
-          background-color: #f4fafa; }
+          background-color: #f4fafa;
+          transition: 0.3s; }
+          .appSection .appMainSection .insertSection .billDiv .insertBillAmount:hover {
+            border: 2px solid #26c0ab;
+            border-radius: 5px; }
           .appSection .appMainSection .insertSection .billDiv .insertBillAmount img {
             padding: 12px 0 0 20px;
             float: left; }
@@ -56,10 +60,18 @@
             font-size: 22px;
             color: white;
             font-weight: bold;
-            cursor: pointer; }
+            cursor: pointer;
+            transition: 0.2s; }
+            .appSection .appMainSection .insertSection .selectTipDiv .tipsPercentage button:hover {
+              background-color: #c5e4e7;
+              color: #00494d; }
           .appSection .appMainSection .insertSection .selectTipDiv .tipsPercentage #customPr {
             background-color: #f4fafa;
-            color: #5e7a7d; }
+            color: #5e7a7d;
+            transition: 0.2s; }
+            .appSection .appMainSection .insertSection .selectTipDiv .tipsPercentage #customPr:hover {
+              border: 2px solid #26c0ab;
+              border-radius: 5px; }
       .appSection .appMainSection .insertSection .peopleNumberDiv {
         height: 70px; }
         .appSection .appMainSection .insertSection .peopleNumberDiv p {
@@ -130,7 +142,10 @@
         font-weight: bold;
         font-size: 23px;
         color: #00494d;
-        margin-top: 18px; }
+        margin-top: 18px;
+        transition: 0.2s; }
+        .appSection .appMainSection .resultSection button:hover {
+          background-color: #c5e4e7; }
 
 @media (min-width: 1200px) {
   .appSection {
