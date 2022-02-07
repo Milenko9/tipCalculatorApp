@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tip Calculator App - Milenko Stankovic</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>Tip Calculator - Milenko Stanković</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -12,6 +14,7 @@
   <body>
 
 
+    <!-- App -->
     <div class="appSection">
       <!-- title appSection -->
       <h1><img src="images/logo.svg" alt="Logo"></h1>
@@ -29,7 +32,7 @@
 
             <div class="insertBillAmount">
               <img src="images/icon-dollar.svg" alt="Dollar icon">
-              <h2>142.55</h2>
+              <h2 id="bill">0</h2>
             </div>
           </div>
           <!-- Insert Bill END -->
@@ -51,11 +54,11 @@
 
           <!-- Number of People -->
           <div class="peopleNumberDiv">
-            <p>Number of People</p>
+            <p id="pPeopleDiv">Number of People</p>
 
             <div class="insertNumberOfPeople">
               <img src="images/icon-person.svg" alt="Dollar icon">
-              <h2>5</h2>
+              <h2 id="peopleNum">0</h2>
             </div>
           </div>
           <!-- Number of People END -->
@@ -75,7 +78,7 @@
             </div>
 
             <div class="numTipADiv">
-              <h4>$4.27</h4>
+              <h4 id="tipNum">$0</h4>
             </div>
           </div>
           <!-- Tip Amount END -->
@@ -88,28 +91,28 @@
             </div>
 
             <div class="numTotalADiv">
-              <h4>$32.79</h4>
+              <h4 id="totalNum">$0</h4>
             </div>
           </div>
           <!-- Total Amount END -->
 
-          <button>Reset</button>
+          <button id="resetBtn">Reset</button>
         </div>
         <!-- Result Section END -->
 
       </div>
       <!-- App Main Section END -->
+      <div class="codedBy">
+        <p>Coded by: Milenko Stanković <br> Challenge by: Frontend Mentor</p>
+      </div>
     </div>
+    <!-- App END -->
 
 
 
 
 
 
-
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- JS -->
     <script src="js/main.js"></script>
   </body>
