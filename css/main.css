@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.appSection {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #c5e4e7; }
+  .appSection h1 {
+    text-align: center;
+    padding: 50px 0 30px; }
+  .appSection .appMainSection {
+    background-color: white;
+    border-radius: 17px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 20px; }
+    .appSection .appMainSection .insertSection {
+      height: 450px;
+      padding: 20px; }
+      .appSection .appMainSection .insertSection .billDiv {
+        height: 70px; }
+        .appSection .appMainSection .insertSection .billDiv p {
+          color: #5e7a7d;
+          font-weight: bold; }
+        .appSection .appMainSection .insertSection .billDiv .insertBillAmount {
+          height: 40px;
+          background-color: #f4fafa; }
+          .appSection .appMainSection .insertSection .billDiv .insertBillAmount img {
+            padding: 12px 0 0 20px;
+            float: left; }
+          .appSection .appMainSection .insertSection .billDiv .insertBillAmount h2 {
+            padding: 2px 15px 0 0;
+            float: right;
+            color: #00494d; }
+      .appSection .appMainSection .insertSection .selectTipDiv {
+        margin: 30px 0 20px; }
+        .appSection .appMainSection .insertSection .selectTipDiv p {
+          color: #5e7a7d;
+          font-weight: bold;
+          padding-bottom: 10px; }
+        .appSection .appMainSection .insertSection .selectTipDiv .tipsPercentage {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap; }
+          .appSection .appMainSection .insertSection .selectTipDiv .tipsPercentage button {
+            width: 47%;
+            height: 44px;
+            border: 0;
+            background-color: #00494d;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            font-size: 22px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer; }
+          .appSection .appMainSection .insertSection .selectTipDiv .tipsPercentage #customPr {
+            background-color: #f4fafa;
+            color: #5e7a7d; }
+      .appSection .appMainSection .insertSection .peopleNumberDiv {
+        height: 70px; }
+        .appSection .appMainSection .insertSection .peopleNumberDiv p {
+          color: #5e7a7d;
+          font-weight: bold; }
+        .appSection .appMainSection .insertSection .peopleNumberDiv .insertNumberOfPeople {
+          height: 40px;
+          background-color: #f4fafa; }
+          .appSection .appMainSection .insertSection .peopleNumberDiv .insertNumberOfPeople img {
+            padding: 12px 0 0 20px;
+            float: left; }
+          .appSection .appMainSection .insertSection .peopleNumberDiv .insertNumberOfPeople h2 {
+            padding: 2px 15px 0 0;
+            float: right;
+            color: #00494d; }
+    .appSection .appMainSection .resultSection {
+      height: 250px;
+      padding: 20px;
+      background-color: #00494d;
+      border-radius: 15px;
+      margin-top: 20px; }
+      .appSection .appMainSection .resultSection .tipAmountDiv {
+        height: 70px;
+        display: flex;
+        justify-content: space-between; }
+        .appSection .appMainSection .resultSection .tipAmountDiv .txtTipADiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .appSection .appMainSection .resultSection .tipAmountDiv .txtTipADiv h3 {
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px; }
+          .appSection .appMainSection .resultSection .tipAmountDiv .txtTipADiv p {
+            color: #5e7a7d;
+            font-size: 12px; }
+        .appSection .appMainSection .resultSection .tipAmountDiv .numTipADiv h4 {
+          font-size: 32px;
+          color: #26c0ab;
+          padding-top: 8px; }
+      .appSection .appMainSection .resultSection .totalAmountDiv {
+        height: 70px;
+        display: flex;
+        justify-content: space-between; }
+        .appSection .appMainSection .resultSection .totalAmountDiv .txtTotalADiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .appSection .appMainSection .resultSection .totalAmountDiv .txtTotalADiv h3 {
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px; }
+          .appSection .appMainSection .resultSection .totalAmountDiv .txtTotalADiv p {
+            color: #5e7a7d;
+            font-size: 12px; }
+        .appSection .appMainSection .resultSection .totalAmountDiv .numTotalADiv h4 {
+          font-size: 32px;
+          color: #26c0ab;
+          padding-top: 8px; }
+      .appSection .appMainSection .resultSection button {
+        width: 100%;
+        height: 50px;
+        text-transform: uppercase;
+        background-color: #26c0ab;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 23px;
+        color: #00494d;
+        margin-top: 18px; }
+
+/*# sourceMappingURL=main.css.map */

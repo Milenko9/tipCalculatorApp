@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import "partials/variables";
+
+* {
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appSection {
+  width: 375px;
+  margin: 0 auto;
+  background-color: $lightGrayishCyan;
+  h1 {
+    text-align: center;
+    padding: 50px 0 30px;
+  }
+  .appMainSection {
+    background-color: $white;
+    border-radius: 17px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 20px;
+    .insertSection {
+      height: 450px;
+      padding: 20px;
+      .billDiv {
+        height: 70px;
+        p {
+          color: $darkGrayishCyan;
+          font-weight: bold;
+        }
+        .insertBillAmount {
+          height: 40px;
+          background-color: $lightGrayishCyan2;
+          img {
+            padding: 12px 0 0 20px;
+            float: left;
+          }
+          h2 {
+            padding: 2px 15px 0 0;
+            float: right;
+            color: $veryDarkCyan;
+          }
+        }
+      }
+      .selectTipDiv {
+        margin: 30px 0 20px;
+        p {
+          color: $darkGrayishCyan;
+          font-weight: bold;
+          padding-bottom: 10px;
+        }
+        .tipsPercentage {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          button {
+            width: 47%;
+            height: 44px;
+            border: 0;
+            background-color: $veryDarkCyan;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            font-size: 22px;
+            color: $white;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          #customPr {
+            background-color: $lightGrayishCyan2;
+            color: $darkGrayishCyan;
+          }
+        }
+      }
+      .peopleNumberDiv {
+        height: 70px;
+        p {
+          color: $darkGrayishCyan;
+          font-weight: bold;
+        }
+        .insertNumberOfPeople {
+          height: 40px;
+          background-color: $lightGrayishCyan2;
+          img {
+            padding: 12px 0 0 20px;
+            float: left;
+          }
+          h2 {
+            padding: 2px 15px 0 0;
+            float: right;
+            color: $veryDarkCyan;
+          }
+        }
+      }
+    }
+    .resultSection {
+      height: 250px;
+      padding: 20px;
+      background-color: $veryDarkCyan;
+      border-radius: 15px;
+      margin-top: 20px;
+      .tipAmountDiv {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        .txtTipADiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h3 {
+            color: $white;
+            font-size: 15px;
+            letter-spacing: 1px;
+          }
+          p {
+            color: $darkGrayishCyan;
+            font-size: 12px;
+          }
+        }
+        .numTipADiv {
+          h4 {
+            font-size: 32px;
+            color: $strongCyan;
+            padding-top: 8px;
+          }
+        }
+      }
+      .totalAmountDiv {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        .txtTotalADiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          h3 {
+            color: $white;
+            font-size: 15px;
+            letter-spacing: 1px;
+          }
+          p {
+            color: $darkGrayishCyan;
+            font-size: 12px;
+          }
+        }
+        .numTotalADiv {
+          h4 {
+            font-size: 32px;
+            color: $strongCyan;
+            padding-top: 8px;
+          }
+        }
+      }
+      button {
+        width: 100%;
+        height: 50px;
+        text-transform: uppercase;
+        background-color: $strongCyan;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 23px;
+        color: $veryDarkCyan;
+        margin-top: 18px;
+      }
+    }
+  }
+}
