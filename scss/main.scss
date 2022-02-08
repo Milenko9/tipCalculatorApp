@@ -104,6 +104,8 @@
             float: right;
             color: red;
             font-weight: normal;
+            font-size: 11px;
+            padding-top: 6px;
           }
         }
         .insertNumberOfPeople {
@@ -226,6 +228,14 @@
       justify-content: space-between;
       .insertSection {
         width: 50%;
+        .peopleNumberDiv {
+          p {
+            span {
+              font-size: 16px;
+              padding-top: 0;
+            }
+          }
+        }
       }
       .resultSection {
         width: 50%;
