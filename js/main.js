@@ -11,6 +11,7 @@ let totalNum = document.querySelector('#totalNum');
 let inputBill = document.querySelector('.insertBillAmount');
 let inputPeoples = document.querySelector('.insertNumberOfPeople');
 let btnReset = document.querySelector('#resetBtn');
+let alertText = document.querySelector('#alertText');
 let billAmount = 0;
 let peoples = 0;
 let tipAmount = 0;
@@ -35,11 +36,15 @@ btnReset.addEventListener('click', () => window.location.reload());
 
 function addBillAmount() {
   billAmount = prompt("Enter your bill here");
+  let text = '';
   if (isNaN(billAmount)) {
     inputBill.style.border = '2px solid red';
+    alertText.innerHTML = '(Must be a number!)';
   } else if (billAmount <= 0) {
     inputBill.style.border = '2px solid red';
+    alertText.innerHTML = "(Can't be zero!)";
   } else {
+    alertText.innerHTML = "";
     inputBill.style.border = '0';
   }
   bill.innerHTML = billAmount;
@@ -51,9 +56,12 @@ function addPeoples() {
   peoples = prompt("Enter number of peoples here");
   if (peoples <= 0) {
     inputPeoples.style.border = '2px solid red';
+    alertText2.innerHTML = "(Can't be zero!)";
   } else if (isNaN(peoples)) {
     inputPeoples.style.border = '2px solid red';
+    alertText2.innerHTML = '(Must be a number!)';
   } else {
+    alertText2.innerHTML = "";
     inputPeoples.style.border = '0';
   }
   peopleNum.innerHTML = peoples;
@@ -139,7 +147,7 @@ function customPercent() {
   tip = (customPrompt / 100) + 1;
   tipOnly = customPrompt / 100;
   customPr.innerHTML = customPrompt + '%';
-  
+
   calculateTotalAmount();
   calculateTipAmount();
 }

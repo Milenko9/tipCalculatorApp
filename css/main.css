@@ -34,6 +34,10 @@
         .appSection .appMainSection .insertSection .billDiv p {
           color: #5e7a7d;
           font-weight: bold; }
+          .appSection .appMainSection .insertSection .billDiv p span {
+            float: right;
+            color: red;
+            font-weight: normal; }
         .appSection .appMainSection .insertSection .billDiv .insertBillAmount {
           height: 40px;
           background-color: #f4fafa;
@@ -85,6 +89,10 @@
         .appSection .appMainSection .insertSection .peopleNumberDiv p {
           color: #5e7a7d;
           font-weight: bold; }
+          .appSection .appMainSection .insertSection .peopleNumberDiv p span {
+            float: right;
+            color: red;
+            font-weight: normal; }
         .appSection .appMainSection .insertSection .peopleNumberDiv .insertNumberOfPeople {
           height: 40px;
           background-color: #f4fafa;

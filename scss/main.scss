@@ -31,6 +31,11 @@
         p {
           color: $darkGrayishCyan;
           font-weight: bold;
+          span {
+            float: right;
+            color: red;
+            font-weight: normal;
+          }
         }
         .insertBillAmount {
           height: 40px;
@@ -95,6 +100,11 @@
         p {
           color: $darkGrayishCyan;
           font-weight: bold;
+          span {
+            float: right;
+            color: red;
+            font-weight: normal;
+          }
         }
         .insertNumberOfPeople {
           height: 40px;
